@@ -1,0 +1,67 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root{
+ --ifm-color-primary: #01d9fe;
+  --ifm-color-primary-dark: #01c3e5;
+  --ifm-color-primary-darker: #01b8d8;
+  --ifm-color-primary-darkest: #0198b2;
+  --ifm-color-primary-light: #1addfe;
+  --ifm-color-primary-lightest: #4de4fe;
+  --ifm-footer-background-color:  #4de4fe;
+}
+
+input, .navbar__search-input {
+  background-color: #152040;
+}
+    
+.hero--primary {
+  --ifm-hero-background-color: #152040;
+  --ifm-hero-text-color: white;
+}
+
+
+
+html[data-theme='dark'] {
+  --ifm-background-color: #152040;
+  --ifm-background-surface-color: #000E36;
+  --ifm-hover-overlay: rgba(255, 255, 255, 0.05);
+  --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%) hue-rotate(223deg) brightness(104%) contrast(98%);
+  --ifm-color-content-secondary: rgba(255, 255, 255, 1);
+  --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%) hue-rotate(149deg) brightness(99%) contrast(95%);
+}
+
+.main-features {
+  background-color: #000E36;
+}
+.home_crown {
+  width: 150px;
+}
+.footer--dark {
+    --ifm-footer-background-color: #242526;
+    --ifm-footer-color: white;
+    --ifm-footer-link-color: white;
+    --ifm-footer-title-color: white;   
+}
+
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+
+.navbar__search-input {
+  background:#152040 url('glass.png') no-repeat 0.75rem center / 1rem 1rem;
+}
+
+* {
+  font-family: 'Gothic A1', 'lato', sans-serif;
+}
